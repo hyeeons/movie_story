@@ -4,7 +4,7 @@ import NowMovie from "./views/NowMovie";
 import Layout from "./components/layout/Layout";
 import Upcomming from "./views/UpComming";
 
-const Router: React.FC = () => (
+const Routers: React.FC = () => (
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<Layout />}>
@@ -15,4 +15,4 @@ const Router: React.FC = () => (
   </BrowserRouter>
 );
 
-export default Router;
+export default Routers;
