@@ -25,7 +25,7 @@ const Header: React.FC = () => (
         </div>
         <div>
           <SlEarphonesAlt />
-          <span>고객고객</span>
+          <span>고객센터</span>
         </div>
       </div>
     </div>
