@@ -5,11 +5,13 @@ import { Outlet } from "react-router-dom";
 
 const Layout: React.FC = () => (
   <>
-    <Header />
-    <main id="main">
-      <Outlet />
-    </main>
-    <Footer />
+    <div className="max-w-[1000px] mx-auto">
+      <Header />
+      <main id="main">
+        <Outlet />
+      </main>
+      <Footer />
+    </div>
   </>
 );
 
