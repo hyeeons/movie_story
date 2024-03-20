@@ -27,7 +27,7 @@ const Header: React.FC = () => (
         ))}
       </div>
     </div>
-    <div className="flex justify-between px-[5px]">
+    <div className="flex justify-between px-[5px] items-center">
       <ul className="flex gap-5">
         <li>
           <a href="#">현재상영작</a>
