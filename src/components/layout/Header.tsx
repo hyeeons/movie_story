@@ -4,6 +4,7 @@ import { LiaUserPlusSolid } from "react-icons/lia";
 import { LiaUser } from "react-icons/lia";
 import { SlEarphonesAlt } from "react-icons/sl";
 import { FaSearch } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const MenuArr = [
   { icon: <SlLock />, text: "로그인" },
@@ -16,7 +17,7 @@ const Header: React.FC = () => (
   <div className="flex flex-col justify-center h-[144px] gap-5 bg-[pink]">
     <div className="flex items-center justify-between ">
       <h1>
-        <a href="#">MVSTORY</a>
+        <Link to="#">MVSTORY</Link>
       </h1>
       <div className="flex gap-5">
         {MenuArr.map(({ icon, text }, index) => (
@@ -30,10 +31,10 @@ const Header: React.FC = () => (
     <div className="flex justify-between px-[5px] items-center">
       <ul className="flex gap-5">
         <li>
-          <a href="#">현재상영작</a>
+          <Link to="#">현재상영작</Link>
         </li>
         <li>
-          <a href="#">상영예정작</a>
+          <Link to="#">상영예정작</Link>
         </li>
       </ul>
       <div className="relative w-[26%]">
