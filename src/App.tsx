@@ -6,7 +6,7 @@ function App() {
     // <div className="App">
     //   <header className="App-header">안녕!</header>
     // </div>
-    <div className="text-default">
+    <div>
       <Routers />
     </div>
   );
