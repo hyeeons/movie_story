@@ -1,5 +1,13 @@
 import React from "react";
+import Poster from "./Poster";
+import Button from "./Button";
 
-const MobieCard: React.FC = () => <div>무비카드</div>;
+const MovieCard: React.FC = () => (
+  <>
+    <div>
+      <Poster /> <Button />
+    </div>
+  </>
+);
 
-export default MobieCard;
+export default MovieCard;

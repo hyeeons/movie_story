@@ -1,5 +1,5 @@
 import React from "react";
+import MovieCard from "../components/movie/MovieCard";
 
-const NowMovie: React.FC = () => <div>현재상영작</div>;
-
+const NowMovie: React.FC = () => <MovieCard />;
 export default NowMovie;
