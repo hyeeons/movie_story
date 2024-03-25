@@ -9,7 +9,8 @@ const Layout: React.FC = () => (
     <div className="max-w-[1000px] mx-auto">
       <Header />
       <main id="main">
-        <TitleTab />
+        <h2>현재상영작</h2>
+
         <Outlet />
       </main>
       <Footer />
