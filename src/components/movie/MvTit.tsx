@@ -4,7 +4,7 @@ const MvTit: React.FC = () => (
   <>
     <div className="flex text-[20px] font-bold gap-[5px] mt-2">
       <div className="bg-gray rounded-[999px]">연령</div>
-      <div>파묘</div>
+      <div>영화제목</div>
     </div>
     <div className="flex justify-between text-[14px] mt-2">
       <div>
